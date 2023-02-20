@@ -150,6 +150,10 @@ footer{
   border-bottom: 2px solid gray;
 }
 
+.bottom{
+  border-bottom: 2px solid gray;
+}
+
 
 footer .container{
   padding: 10px 0 40px 0;
@@ -189,7 +193,8 @@ footer .container{
   background-color: aquamarine;
 }
 
-.bottom-menu .logo, .button{
+.bottom-menu .logo, button{
+  font-size: 20px;
   padding: 5px;
   background-color: pink;
   border: 2px dashed black;
