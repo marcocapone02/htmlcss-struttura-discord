@@ -14,9 +14,9 @@ body{
 
 header{
   display: flex;
-  background-color: skyblue;
   justify-content: center;
   padding: 15px 0;
+  background-color: #ADD8E6;
 
 }
 
@@ -25,16 +25,16 @@ header{
 .menu-container{
   display: flex;
   justify-content: space-between;
-  background-color: orange;
-  border: 1px dashed black;
   width: 60%; 
+  background-color: #DAA520;
+  border: 2px dashed black;
 }
 
 .menu-container .logo, .login{
   display: flex;
   align-items: center;
-  width: 240px;
   height: 40px;
+  width: 240px;
 }
 
 .menu-container .logo{
@@ -42,16 +42,17 @@ header{
 }
 
 .menu-container .login{
-  margin-right: 10px;
   justify-content: flex-end;
+  margin-right: 10px;
 }
 
 .menu-container nav{
   display: flex;
   justify-content: center;
   width: 65%;
-  border-right: 1px dashed black;
-  border-left: 1px dashed black;
+  min-width: 65%;
+  border-right: 2px dashed black;
+  border-left: 2px dashed black;
 }
 
 .menu-container nav ul{
@@ -74,8 +75,122 @@ header{
 
 /*BOTTOM*/
 
+.main-container{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 50px 0;
+  background-color: #00008B;
+  border-bottom: 3px solid #ADD8E6;
+}
+
+.main-box{
+  display: flex;
+  margin: 0 10px;
+  height: 380px;
+  width: 50%;
+  background-color: violet;
+  border: 2px dashed black;
+}
+
+.container{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 50px 0;
+}
+
+.two{
+  background-color: #D3D3D3;
+}
+
+.text-image{
+  display: flex;
+  justify-content: space-between;
+  height: 500px;
+  width: 65%;
+  background-color: blue;
+}
+
+.image{
+  width: 60%;
+  background-color: #1E90FF;
+  border: 2px dashed black;
+}
+
+.text{
+  width: 40%;
+  background-color: #FFC0CB;
+  border: 2px dashed black;
+}
+
+.box{
+  display: flex;
+  height: 800px;
+  width: 65%;
+  margin: 0 10px;
+  background-color: #228B22;
+  border: 2px dashed black;
+}
+
+/*FOOTER*/
+footer{
+  background-color: #23272A;
+}
+
+.top, .bottom{
+  display: flex;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+}
+
+.top{
+  border-bottom: 2px solid gray;
+}
 
 
+footer .container{
+  padding: 10px 0 40px 0;
+  height: 700px;
+  width: 65%;
+}
 
+  .container .left{
+  background-color: #FFC0CB;
+  border: 2px dashed black;
+  width: 30%;
+  height: 100%;
+}
 
+  .container .right{
+  display: flex;
+  flex-direction: column;
+  flex-wrap: wrap;
+  background-color: cadetblue;
+  border: 2px dashed black;
+  width: 70%;
+  height: 100%;
+}
+  .container .right-column{
+  width: 25%;
+  height: 100%;
+  border: 2px dashed white;
+}
 
+.bottom-menu{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 65%;
+  height: 70px;
+  margin-top: 20px;
+  background-color: aquamarine;
+}
+
+.bottom-menu .logo, .button{
+  padding: 5px;
+  background-color: pink;
+  border: 2px dashed black;
+}
